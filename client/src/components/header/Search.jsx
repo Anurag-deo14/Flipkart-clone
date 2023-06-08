@@ -16,8 +16,8 @@ const StyledHeader = styled(InputBase)`
 `
 const SearchIco = styled(Box)`
     color: #2874f0;
-    padding-top:5px;
-    padding-right:10px;
+    padding:5px;
+    display:flex;
 `
 
 const Search = () => {

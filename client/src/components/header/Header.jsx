@@ -24,7 +24,8 @@ const PlusImg = styled('img')({
 })
 
 const Custmbtn = styled(Box)`
- margin: 0 5% 0 auto;
+ display:flex;
+ align-items:center;
 
 `
 
@@ -44,9 +45,10 @@ const Header = () => {
                </Box>
            </Component>
            <Search />
-           <Custmbtn>
+             <Custmbtn>
                <CustomButtons />
-           </Custmbtn>
+             </Custmbtn>
+           
         </Toolbar>
     </StyledHeader>
   )
